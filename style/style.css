@@ -21,7 +21,7 @@ footer{
 	background-color:#a6361f;
 	height:40px;
 }
-#btnSubmit,#btnSubmit2,p,h1,h2,label,.tekst,.levi ul li a{
+#btnSubmit,#btnSubmit2,p,h1,h2,label,.tekst,.levi ul li a,.levi ul li{
 	font-family: 'Poppins', sans-serif;
 	color:#fff;
 }
@@ -171,7 +171,7 @@ ul{
 	padding:10px 30px;
 	margin-left:27%;
 }
-.levi ul li a{
+.levi ul li a,.levi ul li{
 	font-size:4vmin;
 }
 .levi ul li a:hover{
