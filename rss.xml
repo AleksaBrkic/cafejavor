@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-	
+	<channel>
+		<title>Café Javor</title>
+		<link>https://aleksabrkic.github.io/cafejavor</link>
+		<description>Događaji tokom vikenda</description>
+		<language>sr</language>
+		<item>
+			<title>Ovog vikenda: Shangri-la</title>
+			<link>https://aleksabrkic.github.io/cafejavor/index.html</link>
+			<description>Ove subote u 20 časova svira bend "Shangri-la". Nadamo se da se lepo provedete!</description>
+		</item>
+	</channel>
 </rss>
