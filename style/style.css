@@ -33,34 +33,34 @@ h1{
 	font-size:3vw;
 	background:rgb(166,54,31);
 }
-#headimg{
+.headimg{
 	display:inline;
 	width:70px;
 	padding-left:40px;
 	padding-top:10px;
 }
-#headnav{
+.headnav{
 	float:right;
 }
 ul{
 	list-style-type:none;
 }
-#headnav ul{
+.headnav ul{
 	padding-top:24px;
 	padding-right:40px;
 }
-#headnav ul li{
+.headnav ul li{
 	font-family: 'Poppins', sans-serif;
 	font-size:20px;
 	display:inline;
 	float:left;
 	margin-right:20px;
 }
-#headnav ul li a{
+.headnav ul li a{
 	color:#fff;
 	
 }
-#headnav ul li a:hover{
+.headnav ul li a:hover{
 	color:#000;
 }
 .pozadina{
