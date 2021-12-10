@@ -155,16 +155,16 @@ ul{
 #aleksa img{
 	height:80%;
 }
-#forma{
+#forma,#forma2{
 	float:left;
 }
-#ime{
+#ime,#ime2{
 	margin-left:57px;
 }
-#prezime{
+#prezime,#prezime2{
 	margin-left:2px;
 }
-#btnSubmit{
+#btnSubmit,#btnSubmit2{
 	background-color:#692113;
 	text-decoration:none;
 	border:none;
