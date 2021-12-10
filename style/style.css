@@ -1,0 +1,201 @@
+*{
+	margin:0;
+	padding:0;
+}
+@keyframes appear{
+	0%{
+		opacity:0;
+	}
+	40%{
+		opacity:0.2;
+	}
+	100%{
+		opacity:1;
+	}
+}
+header{
+	background-color:#a6361f;
+	height:80px;
+}
+footer{
+	background-color:#a6361f;
+	height:40px;
+}
+#btnSubmit,p,h1,h2,label,.tekst,.levi ul li a{
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+}
+a{
+	text-decoration:none;
+}
+h1{
+	text-align:center;
+	font-size:3vw;
+	background:rgb(166,54,31);
+}
+#headimg{
+	display:inline;
+	width:70px;
+	padding-left:40px;
+	padding-top:10px;
+}
+#headnav{
+	float:right;
+}
+ul{
+	list-style-type:none;
+}
+#headnav ul{
+	padding-top:24px;
+	padding-right:40px;
+}
+#headnav ul li{
+	font-family: 'Poppins', sans-serif;
+	font-size:20px;
+	display:inline;
+	float:left;
+	margin-right:20px;
+}
+#headnav ul li a{
+	color:#fff;
+	
+}
+#headnav ul li a:hover{
+	color:#000;
+}
+#pozadina{
+	width:100%;
+	height:100%;
+	z-index:-1;
+	position:fixed;
+	top:0px;
+}
+.container{
+	width:70%;
+	background:rgba(166,54,31,0.8);
+	margin:100px auto;
+	z-index:10;
+	position:relative;
+	animation:appear 2s;
+}
+.levi{
+	margin-top:5px;
+	margin-left:10px;
+	float:left;
+	width:45%;
+}
+.levi img{
+	width:100%;
+}
+.desni{
+	float:right;
+	width:45%;
+	height:100%;
+	text-align:left;
+	font-size:3vmin;
+	margin-right:1%;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.cleaner{
+	clear:both;
+}
+.linija{
+	height:80%;
+	border-left:1px solid #fff;
+	position:absolute;
+	left:50%;
+	margin-left:-3px;
+	top:10%;
+}
+#galerija{
+	background:rgba(166,54,31,0.8);
+	width:60%;
+	margin:100px auto;
+	animation:appear 2s;
+}
+.red{
+	padding-top:10px;
+	padding-left:10px;
+}
+.dno{
+	padding-bottom:10px;
+}
+.slikadiv{
+	float:left;
+	position:relative;
+	width:25%
+}
+.slikadiv p{
+	text-align:center;
+}
+.slikadiv img{
+	transition: opacity 0.6s;
+	width:100%;
+	position:relative;
+	z-index:10;
+}
+.slikadiv img:hover{
+	opacity:0;
+}
+.tekst{
+	font-size:3vw;
+	margin-top:-65%;
+	margin-left:17%;
+	position:absolute;
+	z-index:5;
+}
+.margine{
+	margin-left:12%;
+	margin-right:12%;
+}
+#aleksa{
+	margin-top:100px;
+}
+#aleksa img{
+	height:80%;
+}
+#forma{
+	float:left;
+}
+#ime{
+	margin-left:57px;
+}
+#prezime{
+	margin-left:2px;
+}
+#btnSubmit{
+	background-color:#692113;
+	text-decoration:none;
+	border:none;
+	padding:10px 30px;
+	margin-left:27%;
+}
+.levi ul li a{
+	font-size:4vmin;
+}
+.levi ul li a:hover{
+	color:#000;
+}
+.levi ul{
+	margin-top:10%;
+	margin-left:10%;
+}
+h2{
+	font-size:4vmin;
+}
+footer ul{
+	float:right;
+	margin-top:8px;
+}
+footer li{
+	display:inline;
+	margin-right:20px;
+}
+footer li a {
+	color:#fff;
+	font-size:15pt;
+}
+footer li a:hover{
+	color:#000;
+}
